@@ -25,8 +25,8 @@ Start creating layers with special methoods
   Logger::info("Set output layer with size: 10");
 ```
 
-If NO additional argument given, it sets the activation function to -> (x > 0)? 1 : 0;
-If you give additional argument, it sets the activation function to 1/(1 + e^(-x))
+If NO additional argument given, activation_index is considered 0 by default it sets the activation function to -> (x > 0)? 1 : 0;
+If you give additional argument 1, it sets the activation function to 1/(1 + e^(-x))
 
 Use "learn" method to learn from example
 
