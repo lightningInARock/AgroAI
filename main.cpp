@@ -50,7 +50,7 @@ int main() {
             line.pop_back();
             line.pop_back();
             line.pop_back();
-            AgroAI.learn(line, sup_val);
+            AgroAI.learn(line, sup_val);        // *** NOT WORKING ***
         }
         Logger::info("File completed");
         ++filename[4];
