@@ -1,14 +1,7 @@
 // #include "Neuron.hpp"
 #include "NeuralNetwork.hpp"
 
-template <class T>
-void f(T& a) {
-
-}
-
 int main() {
-
-    f("asd");
 
     NeuralNetwork AgroAI;
 
