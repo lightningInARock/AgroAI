@@ -262,7 +262,7 @@ public:
     }
 
     /// Learn from example
-    void learn(std::string input, float sup_value) {
+    void learn(std::string input, float sup_value) {                            // *** NOT WORKING, NEEDS TO BE FIXED ***
         std::vector<float> res = run(input);
         std::string print_value;
         for(int i = 0; i < res.size(); ++i) {
